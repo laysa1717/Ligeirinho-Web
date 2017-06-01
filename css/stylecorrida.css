@@ -1,0 +1,231 @@
+/*CSS*/
+h6{
+	display:none;
+}
+body{
+	background-image:url("../Imagens/fundonoticias1.jpg");
+	background-repeat: no-repeat;
+	margin:0px;
+	padding:0px;
+}
+/*Esqueleto do site e div principais*/
+
+.principal1{
+	width:1800px;
+	height:1550px;
+	border: solid 0px black;
+	margin-left:auto;
+	
+	margin-right:auto;
+	background-color:rgba(211,211,211);
+}
+#cabecalho{
+	width:100%;
+	height:150px;
+	background-color:#4B0082;
+	margin-bottom:10px;
+}
+/*Div que controla o menu para que ele possa caber todos os elementos*/
+.divauxcabecalho{
+	width:1900px;
+	height:150px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+
+/*Construção do rodape*/
+.rodape{
+	width:100%;
+	height:580px;
+	background-color:#666;
+	float:left;
+}
+.controladorrodape{
+	width:1900px;
+	height:580px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.fotorodape{
+	width:1100px;
+	height:580px;
+	float:left;
+	background-image:url("../Imagens/linha.fw.png");
+	background-repeat: no-repeat;
+}
+.conteudorodapeesquerda{
+	width:250px;
+	height:200px;
+	margin-top:380px;
+	float:right;
+	border-right:1px solid black;
+}
+.conteudorodapedireita{
+	width:700px;
+	height:580px;
+	float:left;
+}
+.divrodape{
+	width:250px;
+	height:200px;
+	border-right:1px solid black;
+	float:left;
+	margin-left:50px;
+}
+.titulorodape{
+	color:#fff;
+	font-size:30px;
+}
+.conteudorodape{
+	font-size:20px;
+	color:#fff;
+}
+.controlador{
+	width:550px;
+	height:380px;
+	margin-left:80px;
+}
+.espacopesquisar{
+	margin-top:10px;
+	width:550px;
+	height:335px;
+}
+
+/*Final*/
+#criador{
+	width:100%;
+	height:20px;
+	background-color:#CDCDCD;
+	text-align:center;
+}
+/**Construção do cabeçalho**/
+
+.logo{
+	width:400px;
+	height:148px;
+	border: solid 0px black;
+	float:left;
+}
+.menu{
+	width:950px;
+	height:148px;
+	float:left;
+	font-family:arial;
+}
+.login{
+	width:550px;
+	height:148px;
+	border: solid 0px black;
+	float:left;
+	}
+#teste{
+	margin-top:80px;
+	margin-left:150px;
+	color:#fff;
+	font-family:arial;
+}
+.menu ul {
+	padding:0px;
+	margin:0px;
+	list-style:none;
+
+}
+.menu ul li { 
+	display: inline; 
+	float:left;
+}
+
+.menu ul li a {
+	padding: 2px 10px;
+	display: inline-block;
+	color: #333;
+	text-decoration: none;
+	border-bottom:1px solid #4B0082;
+	margin-top:90px;
+	margin-left:15px;
+	font-size:20px;
+	color:#fff;
+
+}
+.menu ul li .a {
+	padding: 2px 10px;
+	display: inline-block;
+	color: #CDCDCD;
+	text-decoration: none;
+	border-bottom:3px solid #EDEDED;
+	margin-top:5px;
+	margin-left:10px;
+	font-size:20px;
+
+}
+.menu ul li a:hover {
+	color: #fff;
+	border-bottom:1px solid white;
+}
+.menu ul li .a:hover {
+	color: #000;
+	border-bottom:3px solid black;
+}
+
+.submenu{
+	height:100px;
+	background-color:#fff;
+	display:none;
+	z-index:800;
+	width:150px;
+	font-size:20px;
+	border-radius:10px;
+	
+
+}
+.menu li:hover .submenu{
+	display:block;
+	position:absolute;
+	margin-top:1px;
+	border: solid 0px black;
+
+}
+
+
+.controladoraHistoria{
+	width:1800px;
+	height:200px;
+	
+}
+
+/*Formatação para o a pag Corrida de rua*/
+.titulo{
+	
+	width:1805px;
+	height:150px;
+	font-family:arial;
+	font-size:40px;
+	text-transform:uppercase;
+				
+
+	text-align:center;
+}
+
+/* tabela que tem todo o conteudo dentro*/
+.tabela{
+	
+	width:1775px;
+	height:1000px;
+
+	/*background-color:rgba(255,255,255, 0.3);*/
+	
+	
+	
+}
+/*Div que separa o conteudo como colunas*/
+.espaco{
+	
+	width:620px;
+	border:solid 0px black;
+	font-size:25px;
+	font-family:arial;
+	padding:20px;
+	text-align:justify;
+}

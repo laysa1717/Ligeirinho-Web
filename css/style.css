@@ -1,0 +1,1049 @@
+/*CSS*/
+/*Desktop*/
+@media screen and (min-width:1280px){
+	h6{
+		display:none;
+	}
+	body{
+		margin:0px;
+		padding:0px;
+	}
+	/*Esqueleto do site*/
+	.principal{
+		width:1900px;
+		height:2950px;
+		border: solid 0px black;
+		margin-left:auto;
+		margin-right:auto;
+		background-color:white;
+
+
+	}
+
+
+	#cabecalho{
+		width:100%;
+		height:150px;
+		background-color:#4B0082;
+		margin-bottom:10px;
+	}
+	/*separador pra home*/
+	.separadorconteudo{
+		width:1375px;
+		height:1424px;
+		margin-right:auto;
+		margin-left:auto;
+		float:left;
+		
+
+	}
+
+
+	.separador{
+		width:230px;
+		height:1024px;
+		float:left;
+	}
+	.divAuxiliar{
+		width:180px;
+		height:550px;
+		margin-top:0px;
+		position:fixed;
+		
+	}
+	.divauxcabecalho{
+		width:1900px;
+		height:150px;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	.caixinhaslaterais{
+		width:150px;
+		height:150px;
+		margin-left:10px;
+		margin-top:30px;
+		
+	}
+	/*Slide show*/
+	.espacoproslide{
+		width:1377px;
+		height:750px;
+		
+	  
+	}
+	.slide{
+		
+		margin-top: -17px;
+		margin-left: -40px;
+	}
+	.container{
+		width:1377px;
+		height:750px;
+		border: solid 0px black;
+		position:relative;
+	}
+	.container img{
+		width:100%;
+		height:100%;
+		position:absolute;
+	}
+	.container .btn{
+		position: absolute;
+		width:50px;
+		height:50px;
+		border: none;
+		border-radius: 25px;
+		top:300px;
+		background-color:white;
+		color:black;
+		font-size:20px;
+	}
+	.container  #btn2{
+		position:relative;
+		float:right;
+	}
+	.isolandodoslide{
+		display:none;
+		width:2000px;
+		height:800px;
+		background-color:purple;
+	}
+	/*Conteudo da home*/
+	.conteudo{
+		width:100%;
+		height:800px;
+	}
+	/*Conteudo noticias*/
+	.conteudo2{
+		width:100%;
+		height:1000px;
+		
+	}
+	/*Conteudo da pag de noticias*/
+	.conteudo2{
+		width:100%;
+		height:800px;
+	}
+	.itens{
+		width:250px;
+		height:370px;
+		background-color:rgba(216,191,216,0.5);
+		float:left;
+		border-radius:10px;
+		margin-top:15px;
+	}
+	.itens ul {
+		padding:0px;
+		margin:0px;
+		list-style:none;
+		cursor:pointer;
+	}
+
+	.itens ul li  {
+		padding: 1px 5px;
+		display: inline-block;
+		color: #333;
+		text-decoration: none;
+		border-bottom:1px solid #EDEDED;
+		margin-top:10px;
+		margin-left:10px;
+		font-size:25px;
+		
+
+	}
+	.itens ul li :hover {
+		
+		color: #6D6D6D;
+		border-bottom:0px solid black;
+		margin-right:5px;
+		transition:1s;
+		-webkit-transition:1s;
+		
+	}
+	
+	.lstsubmenu{
+		display:none;
+		background-color:#EDEDED;
+		cursor:pointer;	
+		display:none;
+		
+	}
+	.itens li:hover .lstsubmenu{
+		display:block;
+		background-color:rgba(216,191,216,0.8);
+		margin-left:30px;
+	}
+	.produtos{
+		width:1125px;
+		height:2190px;
+		float:left;
+		background-color:white;
+	}
+	.divisao{
+		width:1125px;
+		height:380px;
+		margin-top:50px;
+		border:solid 0px black;
+		
+	}
+	.colunasdasdivs{
+		width:350px;
+		height:600px;
+		background-color:white;
+		float:left;
+		margin-left:5px;
+		margin-top:15px;
+		border:solid 1px #CDCDCD;
+		
+	}
+	/*Construção do rodape*/
+	.rodape{
+		width:100%;
+		height:580px;
+		background-color:#4B0082;
+		float:left;
+	}
+	.controladorrodape{
+		width:1800px;
+		height:580px;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	.fotorodape{
+		width:1100px;
+		height:580px;
+		float:left;
+		background-image:url("../Imagens/linha.fw.png");
+		background-repeat: no-repeat;
+	}
+	.conteudorodapeesquerda{
+		width:250px;
+		height:200px;
+		margin-top:380px;
+		float:right;
+		border-right:1px solid black;
+	}
+	.conteudorodapedireita{
+		width:700px;
+		height:580px;
+		float:left;
+	}
+	.divrodape{
+		width:250px;
+		height:200px;
+		border-right:1px solid black;
+		float:left;
+		margin-left:50px;
+	}
+	.titulorodape{
+		color:#fff;
+		font-size:30px;
+	}
+	.conteudorodape{
+		font-size:20px;
+		color:#fff;
+	}
+	.controlador{
+		width:550px;
+		height:380px;
+		margin-left:80px;
+	}
+	.espacopesquisar{
+		margin-top:10px;
+		width:550px;
+		height:335px;
+	}
+
+	/*Final*/
+	#criador{
+		width:100%;
+		height:20px;
+		background-color:#CDCDCD;
+		text-align:center;
+	}
+	/**Construção do cabeçalho**/
+
+	.logo{
+		width:400px;
+		height:148px;
+		border: solid 0px black;
+		float:left;
+	}
+	.menu{
+		width:950px;
+		height:148px;
+		float:left;
+		font-family:arial;
+	}
+	.login{
+		width:550px;
+		height:148px;
+		border: solid 0px black;
+		float:left;
+		}
+	#teste{
+		margin-top:80px;
+		margin-left:150px;
+		color:#fff;
+		font-family:arial;
+	}
+	.menu ul {
+		padding:0px;
+		margin:0px;
+		list-style:none;
+
+	}
+	.menu ul li { 
+		display: inline; 
+		float:left;
+	}
+
+	.menu ul li a {
+		padding: 2px 10px;
+		display: inline-block;
+		color: #333;
+		text-decoration: none;
+		border-bottom:1px solid #4B0082;
+		margin-top:90px;
+		margin-left:15px;
+		font-size:20px;
+		color:#fff;
+
+	}
+	.menu ul li .a {
+		padding: 2px 10px;
+		display: inline-block;
+		color: #CDCDCD;
+		text-decoration: none;
+		border-bottom:3px solid #EDEDED;
+		margin-top:5px;
+		margin-left:10px;
+		font-size:20px;
+
+	}
+	.menu ul li a:hover {
+		color: #fff;
+		border-bottom:1px solid white;
+	}
+	.menu ul li .a:hover {
+		color: #000;
+		border-bottom:3px solid black;
+	}
+
+	.submenu{
+		height:100px;
+		background-color:#fff;
+		display:none;
+		z-index:800;
+		width:150px;
+		font-size:20px;
+		border-radius:10px;
+		
+
+	}
+	.menu li:hover .submenu{
+		display:block;
+		position:absolute;
+		margin-top:1px;
+		border: solid 0px black;
+
+	}
+	/*Construção do Conteudo*/
+
+
+	.imagem{
+		width:300px;
+		height:300px;
+		margin-left:auto;
+		margin-right:auto;
+		background-color:#ffffff;
+	}
+
+	.imgsaosilvestre{
+		width:300px;
+		height:100px;
+		background-image:url("../Imagens/saosilvestre.png");
+		opacity:0.6;
+		border-radius:10px;
+	}
+	.imgsaosilvestre:hover{
+		opacity:4;
+		transition:1s;
+	}
+	/*Carnaval*/
+	.imgcarnaval{
+		width:300px;
+		height:300px;
+		background-image:url("../Imagens/carnaval.jpg");
+		opacity:0.6;
+		border-radius:20px;
+		position: absolute;
+	}
+	.imgcarnaval:hover{
+		opacity:4;
+		transition:1s;
+	}
+	/*NIGHT*/
+	.imgnight{
+		width:300px;
+		height:300px;
+		background-image:url("../Imagens/night.jpg");
+		opacity:0.6;
+		border-radius:10px;
+		position: absolute;
+	}
+	.imgnight:hover{
+		opacity:4;
+		transition:1s;
+	}
+	/*FANTASY*/
+	.imgfantasy{
+		width:300px;
+		height:300px;
+		background-image:url("../Imagens/fantasy.jpg");
+		opacity:0.6;
+		border-radius:20px;
+		position: absolute;
+	}
+	.imgfantasy:hover{
+		opacity:4;
+		transition:1s;
+	}
+	/*ATHENAS*/
+	.imgathenas{
+		width:300px;
+		height:300px;
+		background-image:url("../Imagens/athenas.jpg");
+		opacity:0.6;
+		border-radius:20px;
+		position: absolute;
+	}
+	.imgathenas:hover{
+		opacity:4;
+		transition:1s;
+	}
+	/*BRAVUS*/
+	.imgbravus{
+		width:300px;
+		height:300px;
+		background-image:url("../Imagens/bravus.jpg");
+		opacity:0.6;
+		border-radius:20px;
+		position: absolute;
+	}
+	.imgbravus:hover{
+		opacity:4;
+		transition:1s;
+	}
+	/*MARATHON*/
+	.imgmarathon{
+		width:300px;
+		height:300px;
+		background-image:url("../Imagens/marathon.jpg");
+		opacity:0.6;
+		border-radius:20px;
+		position: absolute;
+	}
+	.imgmarathon:hover{
+		opacity:4;
+		transition:1s;
+	}
+	.descricao{
+		width:300px;
+		height:80px;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:15px;
+	}
+	.letratitulo{
+		width:300px;
+		background-color:#fff;
+		font-family:arial;
+		font-size:25px;
+		text-align:center;
+		color:#4B0082;
+	}
+
+	.descricaoProduto{
+		width:300px;
+		height:160px;
+		font-family:arial;
+		color:#696969;
+	}
+	.precoProduto{
+		width:20px;
+		height:40px;
+		color:green;
+		font-size:35px;
+		font-family:arial;
+		text-align:right;
+	}
+	.detalhesproduto{
+		width:100%;
+		height:30px;
+		color:#000;
+		text-align:right;
+		font-family:arial;
+	}
+	/*Formatação da pagina noticia*/
+
+	.titulonoticias{
+		
+		width:100%;
+		height:80px;
+		background-color:white;
+		font-family:arial;
+		font-size:50px;
+		text-transform:uppercase;
+		text-align:center;
+	}
+	.backgroundfoto{
+		width:100%;
+		height:1250px;
+		background-image:url("../Imagens/fundonoticias.jpg");
+		background-repeat: no-repeat;
+		
+	}
+}
+/*Mobile*/
+@media only screen and (max-device-width: 480px) and (orientation : portrait) {	
+	h6{
+		display:none;
+	}
+	body{
+		margin:0px;
+		padding:0px;
+	}
+	/*Esqueleto do site*/
+	.principal{
+		width:960px;
+		height:6424px;
+		border: solid 0px black;
+		margin-left:auto;
+		margin-right:auto;
+		background-color:white;
+		
+		
+
+	}
+
+
+	#cabecalho{
+		width:100%;
+		height:150px;
+		background-color:#4B0082;
+		margin-bottom:10px;
+		
+	}
+	/*separador pra home*/
+	.separadorconteudo{
+		width:480px;
+		height:2924px;
+		margin-right:auto;
+		margin-left:auto;
+		float:left;
+		
+		
+		
+		
+
+	}
+
+	
+	.separador{
+		width:230px;
+		height:1024px;
+		float:left;
+		display:none;
+	}
+	.divAuxiliar{
+		width:180px;
+		height:550px;
+		margin-top:0px;
+		position:fixed;
+		
+		
+	}
+	.divauxcabecalho{
+		width:980px;
+		height:150px;
+		margin-left:auto;
+		margin-right:auto;
+		
+		
+	}
+	.caixinhaslaterais{
+		width:150px;
+		height:150px;
+		margin-left:10px;
+		margin-top:30px;
+		background-color:white;
+		
+	}
+	/*Slide show*/
+	.espacoproslide{
+		width:970px;
+		height:400px;
+		
+	  
+	}
+	.slide{
+		
+		margin-top: -17px;
+		margin-left: -40px;
+		display:none;
+	}
+	.container{
+		width:960px;
+		height:400px;
+		border: solid 0px black;
+		position:relative;
+	}
+	.container img{
+		width:100%;
+		height:100%;
+		position:absolute;
+	}
+	.container .btn{
+		position: absolute;
+		width:20px;
+		height:50px;
+		border: none;
+		border-radius: 25px;
+		top:100px;
+		background-color:white;
+		color:black;
+		font-size:20px;
+		display:none;
+	}
+	.container  #btn2{
+		position:relative;
+		float:right;
+	}
+	.isolandodoslide{
+		display:none;
+		width:2000px;
+		height:800px;
+		background-color:purple;
+	}
+	/*Conteudo da home*/
+	.conteudo{
+		width:960px;
+		height:600px;
+		margin-top:0px;
+		background-color:white;
+		float:left;
+	
+	}
+	/*Conteudo noticias*/
+	.conteudo2{
+		width:100%;
+		height:1000px;
+		
+		
+	}
+	/*Conteudo da pag de noticias*/
+	.conteudo2{
+		width:100%;
+		height:800px;
+	}
+	.itens{
+		width:350px;
+		height:570px;
+		background-color:rgba(216,191,216,0.5);
+		margin-top:30px;
+		border-radius:10px;
+		float:left;
+		margin-top:15px;
+	}
+	.itens ul li  {
+		padding: 1px 5px;
+		display: inline-block;
+		color: #333;
+		text-decoration: none;
+		border-bottom:1px solid #EDEDED;
+		margin-top:10px;
+		margin-left:10px;
+		font-size:25px;
+		
+
+	}
+	.itens ul li :hover {
+		
+		color: #6D6D6D;
+		border-bottom:0px solid black;
+		margin-right:5px;
+		transition:1s;
+		-webkit-transition:1s;
+		
+	}
+	
+	.lstsubmenu{
+		display:none;
+		background-color:#EDEDED;
+		cursor:pointer;	
+		display:none;
+		
+	}
+	.itens li:hover .lstsubmenu{
+		display:block;
+		background-color:rgba(216,191,216,0.8);
+		margin-left:30px;
+	}
+	
+
+	.produtos{
+		width:570px;
+		height:1070px;
+		float:left;
+		background-color:white;
+		margin-left:30px;
+		
+	}
+	.divisao{
+		width:100%;
+		height:2880px;
+		margin-top:50px;
+		border:solid 0px black;
+		float:left;
+		background-color:white;
+		
+		
+	}
+	.colunasdasdivs{
+		width:100%;
+		height:900px;
+		background-color:white;
+		float:left;
+		margin-left:5px;
+		margin-top:15px;
+		
+		
+	}
+	/*Construção do rodape*/
+	.rodape{
+		width:100%;
+		height:300px;
+		background-color:#4B0082;
+		float:left;
+	}
+	.controladorrodape{
+		width:450px;
+		height:300px;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	.fotorodape{
+		width:1100px;
+		height:580px;
+		float:left;
+		background-image:url("../Imagens/linha.fw.png");
+		background-repeat: no-repeat;
+		display:none;
+	}
+	.conteudorodapeesquerda{
+		width:100px;
+		height:200px;
+		
+		float:right;
+		border-right:1px solid black;
+	}
+	.conteudorodapedireita{
+		width:480px;
+		height:300px;
+		
+		float:left;
+	}
+	.divrodape{
+		width:200px;
+		height:200px;
+		border-right:1px solid black;
+		float:left;
+		
+	}
+	.titulorodape{
+		color:#fff;
+		font-size:30px;
+	}
+	.conteudorodape{
+		font-size:20px;
+		color:#fff;
+	}
+	.controlador{
+		width:450px;
+		height:100px;
+	}
+	.espacopesquisar{
+		margin-top:10px;
+		width:450px;
+		height:100px;
+	}
+
+	/*Final*/
+	#criador{
+		width:100%;
+		height:20px;
+		background-color:#CDCDCD;
+		text-align:center;
+	}
+	/**Construção do cabeçalho**/
+	.objetooculto{
+		width:150px;
+		height:150px;
+		float:left;
+		background-image:url("../Imagens/menu.png");
+	}
+	
+	.logo{
+		width:400px;
+		height:148px;
+		border: solid 0px black;
+		float:left;
+		margin-left:200px;
+	}
+	.menu{
+		width:950px;
+		height:148px;
+		float:left;
+		font-family:arial;
+		background-color:green;
+		display:none;
+	}
+	.login{
+		width:550px;
+		height:148px;
+		border: solid 0px black;
+		float:left;
+		display:none;
+		}
+	#teste{
+		margin-top:80px;
+		margin-left:150px;
+		color:#fff;
+		font-family:arial;
+		
+	}
+	.menu ul {
+		padding:0px;
+		margin:0px;
+		list-style:none;
+		display:none;
+
+	}
+	.menu ul li { 
+		display: inline; 
+		float:left;
+		display:none;
+	}
+
+	.menu ul li a {
+		padding: 2px 10px;
+		display: inline-block;
+		color: #333;
+		text-decoration: none;
+		border-bottom:1px solid #4B0082;
+		margin-top:90px;
+		margin-left:15px;
+		font-size:20px;
+		color:#fff;
+		display:none;
+
+	}
+	.menu ul li .a {
+		padding: 2px 10px;
+		display: inline-block;
+		color: #CDCDCD;
+		text-decoration: none;
+		border-bottom:3px solid #EDEDED;
+		margin-top:5px;
+		margin-left:10px;
+		font-size:20px;
+		display:none;
+
+	}
+	.menu ul li a:hover {
+		color: #fff;
+		border-bottom:1px solid white;
+		display:none;
+	}
+	.menu ul li .a:hover {
+		color: #000;
+		border-bottom:3px solid black;
+		display:none;
+	}
+
+	.submenu{
+		height:100px;
+		background-color:#fff;
+		display:none;
+		z-index:800;
+		width:150px;
+		font-size:20px;
+		border-radius:10px;
+		display:none;
+		
+
+	}
+	.menu li:hover .submenu{
+		display:block;
+		position:absolute;
+		margin-top:1px;
+		border: solid 0px black;
+		display:none;
+
+	}
+	/*Construção do Conteudo*/
+
+
+	.imagem{
+		width:570px;
+		height:500px;
+		background-color:white;
+		
+	}
+
+	.imgsaosilvestre{
+		width:300px;
+		height:100px;
+		background-image:url("../Imagens/saosilvestre.png");
+		opacity:0.6;
+		border-radius:10px;
+	}
+	.imgsaosilvestre:hover{
+		opacity:4;
+		transition:1s;
+	}
+	/*Carnaval*/
+	.imgcarnaval{
+		width:500px;
+		height:500px;
+		background-image:url("../Imagens/carnaval.jpg");
+		opacity:0.6;
+		border-radius:20px;
+		position: absolute;
+		
+		
+	}
+	.imgcarnaval:hover{
+		opacity:4;
+		transition:1s;
+	}
+	/*NIGHT*/
+	.imgnight{
+		width:500px;
+		height:500px;
+		background-image:url("../Imagens/night.jpg");
+		opacity:0.6;
+		border-radius:10px;
+		position: absolute;
+	}
+	.imgnight:hover{
+		opacity:4;
+		transition:1s;
+	}
+	/*FANTASY*/
+	.imgfantasy{
+		width:500px;
+		height:500px;
+		background-image:url("../Imagens/fantasy.jpg");
+		opacity:0.6;
+		border-radius:20px;
+		position: absolute;
+	}
+	.imgfantasy:hover{
+		opacity:4;
+		transition:1s;
+	}
+	/*ATHENAS*/
+	.imgathenas{
+		width:500px;
+		height:500px;
+		background-image:url("../Imagens/athenas.jpg");
+		opacity:0.6;
+		border-radius:20px;
+		position: absolute;
+	}
+	.imgathenas:hover{
+		opacity:4;
+		transition:1s;
+	}
+	/*BRAVUS*/
+	.imgbravus{
+		width:500px;
+		height:500px;
+		background-image:url("../Imagens/bravus.jpg");
+		opacity:0.6;
+		border-radius:20px;
+		position: absolute;
+	}
+	.imgbravus:hover{
+		opacity:4;
+		transition:1s;
+	}
+	/*MARATHON*/
+	.imgmarathon{
+		width:500px;
+		height:500px;
+		background-image:url("../Imagens/marathon.jpg");
+		opacity:0.6;
+		border-radius:20px;
+		position: absolute;
+	}
+	.imgmarathon:hover{
+		opacity:4;
+		transition:1s;
+	}
+	.descricao{
+		width:500px;
+		height:380px;
+		margin-left:auto;
+		margin-right:auto;
+		background-color:white;
+		margin-top:15px;
+		font-size:20px;
+	}
+	.letratitulo{
+		font-family:arial;
+		font-size:60px;
+		text-align:center;
+		background-color:white;
+	}
+
+	.precoProduto{
+		width:20px;
+		height:40px;
+		color:green;
+		font-size:35px;
+		font-family:arial;
+		text-align:right;
+	}
+	.detalhesproduto{
+		width:100%;
+		height:30px;
+		color:#000;
+		text-align:right;
+		font-family:arial;
+		
+	}
+	/*Formatação da pagina noticia*/
+
+	.titulonoticias{
+		
+		width:100%;
+		height:80px;
+		background-color:white;
+		font-family:arial;
+		font-size:50px;
+		text-transform:uppercase;
+		text-align:center;
+	}
+	.backgroundfoto{
+		width:100%;
+		height:1250px;
+		background-image:url("../Imagens/fundonoticias.jpg");
+		background-repeat: no-repeat;
+		
+	}
+	
+	
+}

@@ -1,0 +1,64 @@
+/*CSS*/
+/*Div principal que mantem fixado no meio da tela*/
+body{
+	padding:0px;
+	margin:0px;
+	background-color:rgba(211,211,211, 0.5);
+}
+.principal{
+	width:924px;
+	height:750px;
+	background-color:rgba(0,0,0, 0.4);
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:50px;
+	border-radius:60px;
+}
+/*Cabeçalho da pag*/
+#cabecalho{
+	width:924px;
+	height:190px;
+	border-bottom:solid 1px white;
+	/*background-color:pink;*/
+
+
+}
+
+/*Divs que controla logo e titulo*/
+.tituloadm{
+	width:550px;
+	height:100px;
+	margin-top:85px;
+	margin-left:20px;
+	float:left;
+	font-size:25px;
+	font-family:arial;
+	color:white;
+	text-align:center;
+}
+.logoadm{
+	width:250px;
+	height:150px;
+	margin-top:15px;
+	float:left;
+}
+/*Construção do Menu*/
+
+#menu{
+	width:100%;
+	height:150px;
+}
+/*Div controladora do menu, que separa as funções da saudação*/
+.esquerda{
+	width:700px;
+	height:150px;
+	float:left;
+	background-color:red;
+}
+.direita{
+	width:215px;
+	height:150px;
+	margin-left:5px;
+	float:left;
+	background-color:red;
+}
